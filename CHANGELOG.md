@@ -260,9 +260,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Python-based installer
 - Shell script for Unix-like systems
 
-[Unreleased]: https://github.com/brennercruvinel/CCPlugins/compare/v2.5.2...HEAD
-[2.5.2]: https://github.com/brennercruvinel/CCPlugins/compare/v2.5.1...v2.5.2
-[2.5.1]: https://github.com/brennercruvinel/CCPlugins/compare/v2.0.0...v2.5.1
-[2.0.0]: https://github.com/brennercruvinel/CCPlugins/compare/v1.6.0...v2.0.0
-[1.6.0]: https://github.com/brennercruvinel/CCPlugins/compare/v1.5.0...v1.6.0
-[1.5.0]: https://github.com/brennercruvinel/CCPlugins/releases/tag/v1.5.0
+[Unreleased]: https://github.com/solidlogictech/CCPlugins/compare/v2.5.2...HEAD
+[2.5.2]: https://github.com/solidlogictech/CCPlugins/compare/v2.5.1...v2.5.2
+[2.5.1]: https://github.com/solidlogictech/CCPlugins/compare/v2.0.0...v2.5.1
+[2.0.0]: https://github.com/solidlogictech/CCPlugins/compare/v1.6.0...v2.0.0
+[1.6.0]: https://github.com/solidlogictech/CCPlugins/compare/v1.5.0...v1.6.0
+[1.5.0]: https://github.com/solidlogictech/CCPlugins/releases/tag/v1.5.0

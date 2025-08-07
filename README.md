@@ -15,12 +15,12 @@
 ```
 
 # Automate the `Boring Stuff`
-![GitHub Repo stars](https://img.shields.io/github/stars/brennercruvinel/CCPlugins?style=social)
-[![Version](https://img.shields.io/badge/version-2.5.2-blue.svg)](https://github.com/brennercruvinel/CCPlugins)
+![GitHub Repo stars](https://img.shields.io/github/stars/solidlogictech/CCPlugins?style=social)
+[![Version](https://img.shields.io/badge/version-2.5.2-blue.svg)](https://github.com/solidlogictech/CCPlugins)
 [![Claude Code CLI](https://img.shields.io/badge/for-Claude%20Code%20CLI-purple.svg)](https://docs.anthropic.com/en/docs/claude-code)
 [![Tested on](https://img.shields.io/badge/tested%20on-Opus%204%20%26%20Sonnet%204-orange.svg)](https://claude.ai)
 [![Also works with](https://img.shields.io/badge/also%20works%20with-Kimi%20K2-1783ff.svg)](https://github.com/MoonshotAI/Kimi-K2)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/brennercruvinel/CCPlugins/blob/main/CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/solidlogictech/CCPlugins/blob/main/CONTRIBUTING.md)
 
 ## What is `CCPlugins`?
 
@@ -51,7 +51,7 @@ CCPlugins is a curated set of 24 professional commands that extend Claude Code C
 
 **Mac/Linux:**
 ```bash
-curl -sSL https://raw.githubusercontent.com/brennercruvinel/CCPlugins/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/solidlogictech/CCPlugins/main/install.sh | bash
 ```
 
 **Windows/Cross-platform:**
@@ -61,7 +61,7 @@ python install.py
 
 ### Manual Install
 ```bash
-git clone https://github.com/brennercruvinel/CCPlugins.git
+git clone https://github.com/solidlogictech/CCPlugins.git
 cd CCPlugins
 python install.py
 ```
@@ -429,7 +429,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Community
 
-[![Star History Chart](https://api.star-history.com/svg?repos=brennercruvinel/CCPlugins&type=Date)](https://star-history.com/#brennercruvinel/CCPlugins&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=solidlogictech/CCPlugins&type=Date)](https://star-history.com/#solidlogictech/CCPlugins&Date)
 
 ---
 

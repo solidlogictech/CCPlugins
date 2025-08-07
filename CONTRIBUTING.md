@@ -49,7 +49,7 @@ Open an issue with:
 ## Development Setup
 
 ```bash
-git clone https://github.com/brennercruvinel/CCPlugins
+git clone https://github.com/solidlogictech/CCPlugins
 cd CCPlugins
 python install.py  # Test your changes
 ```

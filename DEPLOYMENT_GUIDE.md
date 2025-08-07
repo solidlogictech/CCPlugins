@@ -11,10 +11,10 @@ This guide covers the deployment and installation of CCPlugins Planning Enhancem
 **Quick Install:**
 ```bash
 # Download and install
-curl -sSL https://raw.githubusercontent.com/brennercruvinel/CCPlugins/main/install-planning-enhancement.py | python3
+curl -sSL https://raw.githubusercontent.com/solidlogictech/CCPlugins/main/install-planning-enhancement.py | python3
 
 # Or clone and install
-git clone https://github.com/brennercruvinel/CCPlugins.git
+git clone https://github.com/solidlogictech/CCPlugins.git
 cd CCPlugins
 python3 install-planning-enhancement.py
 ```
@@ -56,7 +56,7 @@ ls -la ~/.claude/commands/
 **For contributors and testers:**
 ```bash
 # Clone repository
-git clone https://github.com/brennercruvinel/CCPlugins.git
+git clone https://github.com/solidlogictech/CCPlugins.git
 cd CCPlugins
 
 # Create symlinks for development
@@ -116,7 +116,7 @@ claude "/plan --help"
 2. **Update CCPlugins core:**
    ```bash
    # Follow CCPlugins update procedure
-   curl -sSL https://raw.githubusercontent.com/brennercruvinel/CCPlugins/main/install.sh | bash
+   curl -sSL https://raw.githubusercontent.com/solidlogictech/CCPlugins/main/install.sh | bash
    ```
 
 3. **Install planning enhancement:**
@@ -328,7 +328,7 @@ echo -e "\n✅ Health check complete"
 grep -r "version" ~/.claude/commands/requirements.md | head -1
 
 # Check for updates (manual process)
-curl -s https://api.github.com/repos/brennercruvinel/CCPlugins/releases/latest | \
+curl -s https://api.github.com/repos/solidlogictech/CCPlugins/releases/latest | \
     grep '"tag_name"' | cut -d'"' -f4
 ```
 
@@ -338,7 +338,7 @@ curl -s https://api.github.com/repos/brennercruvinel/CCPlugins/releases/latest |
 cp -r ~/.claude/commands ~/.claude/commands.backup
 
 # Download and install updates
-curl -sSL https://raw.githubusercontent.com/brennercruvinel/CCPlugins/main/install-planning-enhancement.py | python3
+curl -sSL https://raw.githubusercontent.com/solidlogictech/CCPlugins/main/install-planning-enhancement.py | python3
 
 # Verify update
 python3 -c "
@@ -421,13 +421,13 @@ sha256sum install-planning-enhancement.py
 # Compare with published checksums
 
 # Review installation script before running
-curl -s https://raw.githubusercontent.com/brennercruvinel/CCPlugins/main/install-planning-enhancement.py | less
+curl -s https://raw.githubusercontent.com/solidlogictech/CCPlugins/main/install-planning-enhancement.py | less
 ```
 
 **Secure Installation:**
 ```bash
 # Install from verified source
-git clone https://github.com/brennercruvinel/CCPlugins.git
+git clone https://github.com/solidlogictech/CCPlugins.git
 cd CCPlugins
 # Review code
 git log --oneline -10
