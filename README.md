@@ -76,7 +76,7 @@ python uninstall.py
 ```
 
 ## Commands
-24 professional commands optimized for Claude Code CLI's native capabilities with enhanced validation and refinement phases.
+33 professional commands optimized for Claude Code CLI's native capabilities with enhanced validation and refinement phases.
 
 ### 🚀 Development Workflow
 
@@ -120,6 +120,26 @@ python uninstall.py
 /docs                  # Smart documentation management and updates
 /todos-to-issues       # Convert code TODOs to GitHub issues
 /undo                  # Safe rollback with git checkpoint restore
+```
+
+### 🎯 Strategic Planning & Requirements
+
+```bash
+/requirements          # Gather and document feature requirements using EARS format
+/plan                  # Transform requirements into detailed implementation plans
+/validate-implementation # Ensure implementations match original requirements
+/adr                   # Document architectural decisions with context and rationale
+/feature-status        # Track complete feature lifecycle from requirements to deployment
+/retrospective         # Conduct post-completion analysis for continuous improvement
+```
+
+### 🔄 Pattern Expansion & Scaling
+
+```bash
+/expand-tests          # Analyze existing tests and expand coverage following patterns
+/expand-api            # Create similar API endpoints following established conventions
+/expand-components     # Generate UI components following existing patterns
+/expand-models         # Create data models following established schema patterns
 ```
 
 
