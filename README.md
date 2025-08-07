@@ -1,22 +1,23 @@
 ```
  ██████╗██╗      █████╗ ██╗   ██╗██████╗ ███████╗     ██████╗ ██████╗ ██████╗ ███████╗
 ██╔════╝██║     ██╔══██╗██║   ██║██╔══██╗██╔════╝    ██╔════╝██╔═══██╗██╔══██╗██╔════╝
-██║     ██║     ███████║██║   ██║██║  ██║█████╗      ██║     ██║   ██║██║  ██║█████╗  
-██║     ██║     ██╔══██║██║   ██║██║  ██║██╔══╝      ██║     ██║   ██║██║  ██║██╔══╝  
+██║     ██║     ███████║██║   ██║██║  ██║█████╗      ██║     ██║   ██║██║  ██║█████╗
+██║     ██║     ██╔══██║██║   ██║██║  ██║██╔══╝      ██║     ██║   ██║██║  ██║██╔══╝
 ╚██████╗███████╗██║  ██║╚██████╔╝██████╔╝███████╗    ╚██████╗╚██████╔╝██████╔╝███████╗
  ╚═════╝╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝     ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
-                                                                                         
-██████╗ ██╗     ██╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗                               
-██╔══██╗██║     ██║   ██║██╔════╝ ██║████╗  ██║██╔════╝                               
-██████╔╝██║     ██║   ██║██║  ███╗██║██╔██╗ ██║███████╗                               
-██╔═══╝ ██║     ██║   ██║██║   ██║██║██║╚██╗██║╚════██║                               
-██║     ███████╗╚██████╔╝╚██████╔╝██║██║ ╚████║███████║                               
-╚═╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝                               
+
+██████╗ ██╗     ██╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
+██╔══██╗██║     ██║   ██║██╔════╝ ██║████╗  ██║██╔════╝
+██████╔╝██║     ██║   ██║██║  ███╗██║██╔██╗ ██║███████╗
+██╔═══╝ ██║     ██║   ██║██║   ██║██║██║╚██╗██║╚════██║
+██║     ███████╗╚██████╔╝╚██████╔╝██║██║ ╚████║███████║
+╚═╝     ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
 ```
 
 # Automate the `Boring Stuff`
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/solidlogictech/CCPlugins?style=social)
-[![Version](https://img.shields.io/badge/version-2.5.2-blue.svg)](https://github.com/solidlogictech/CCPlugins)
+[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](https://github.com/solidlogictech/CCPlugins)
 [![Claude Code CLI](https://img.shields.io/badge/for-Claude%20Code%20CLI-purple.svg)](https://docs.anthropic.com/en/docs/claude-code)
 [![Tested on](https://img.shields.io/badge/tested%20on-Opus%204%20%26%20Sonnet%204-orange.svg)](https://claude.ai)
 [![Also works with](https://img.shields.io/badge/also%20works%20with-Kimi%20K2-1783ff.svg)](https://github.com/MoonshotAI/Kimi-K2)
@@ -35,7 +36,7 @@ Professional commands for Claude Code CLI that save 2-3 hours per week on repeti
 
 🚧 **Active Development Notice**: CCPlugins is continuously evolving based on real-world usage. We thoroughly test each command and refine them as we discover gaps and opportunities. This ensures you're always getting battle-tested, production-ready tools that solve actual developer problems.
 
-CCPlugins is a curated set of 24 professional commands that extend Claude Code CLI with enterprise-grade development workflows. These commands leverage Claude's contextual understanding while providing structured, predictable outcomes optimized for Opus 4 and Sonnet 4 models.
+CCPlugins is a curated set of 43 professional commands that extend Claude Code CLI with enterprise-grade development workflows. These commands leverage Claude's contextual understanding while providing structured, predictable outcomes optimized for Opus 4 and Sonnet 4 models.
 
 ## Quick Links
 
@@ -50,16 +51,19 @@ CCPlugins is a curated set of 24 professional commands that extend Claude Code C
 ### Quick Install
 
 **Mac/Linux:**
+
 ```bash
 curl -sSL https://raw.githubusercontent.com/solidlogictech/CCPlugins/main/install.sh | bash
 ```
 
 **Windows/Cross-platform:**
+
 ```bash
 python install.py
 ```
 
 ### Manual Install
+
 ```bash
 git clone https://github.com/solidlogictech/CCPlugins.git
 cd CCPlugins
@@ -67,6 +71,7 @@ python install.py
 ```
 
 ### Uninstall
+
 ```bash
 # Mac/Linux
 ./uninstall.sh
@@ -76,7 +81,8 @@ python uninstall.py
 ```
 
 ## Commands
-33 professional commands optimized for Claude Code CLI's native capabilities with enhanced validation and refinement phases.
+
+43 professional commands optimized for Claude Code CLI's native capabilities with enhanced validation and refinement phases.
 
 ### 🚀 Development Workflow
 
@@ -142,23 +148,43 @@ python uninstall.py
 /expand-models         # Create data models following established schema patterns
 ```
 
+### 🚀 Advanced Web Development
+
+```bash
+/performance-audit     # Comprehensive performance analysis with Lighthouse integration
+/accessibility-scan    # WCAG compliance checking with automated remediation
+/database-optimize     # Query optimization and migration safety validation
+/api-docs             # OpenAPI specification generation with testing suites
+/docker-optimize      # Container optimization with security and performance analysis
+/monitoring-setup     # Observability stack configuration with metrics and alerting
+/visual-regression    # Cross-browser visual testing with baseline management
+/i18n-extract         # Internationalization with translation management and RTL support
+/git-workflow         # Git workflow optimization with branching and collaboration improvements
+/architecture-analysis # Pattern detection and technical debt assessment
+```
 
 ## Enhanced Features
 
 ### 🔍 Validation & Refinement
+
 Complex commands now include validation phases to ensure completeness:
+
 ```bash
 /refactor validate   # Find remaining old patterns, verify 100% migration
 /implement validate  # Check integration completeness, find loose ends
 ```
 
 ### 🧠 Extended Thinking
+
 Advanced analysis for complex scenarios:
+
 - **Refactoring**: Deep architectural analysis for large-scale changes
 - **Security**: Sophisticated vulnerability detection with chain analysis
 
 ### 🔗 Pragmatic Command Integration
+
 Natural workflow suggestions without over-engineering:
+
 - Suggests `/test` after major changes
 - Recommends `/commit` at logical checkpoints
 - Maintains user control, no automatic execution
@@ -166,6 +192,7 @@ Natural workflow suggestions without over-engineering:
 ## Real World Example
 
 ### Before `/cleanproject`:
+
 ```
 src/
 ├── UserService.js
@@ -177,6 +204,7 @@ src/
 ```
 
 ### After `/cleanproject`:
+
 ```
 src/
 ├── UserService.js          # Clean production code
@@ -208,11 +236,13 @@ When you type a command:
 ### Core Architecture Components
 
 **🧠 Intelligent Instructions**
+
 - First-person conversational design activates collaborative reasoning
 - Strategic thinking sections (`<think>`) for complex decision-making
 - Context-aware adaptations without hardcoded assumptions
 
 **🔧 Native Tool Integration**
+
 - **Grep**: Lightning-fast pattern matching across codebases
 - **Glob**: Intelligent file discovery and project mapping
 - **Read**: Content analysis with full context understanding
@@ -221,12 +251,14 @@ When you type a command:
 - **Task**: Sub-agent orchestration for specialized analysis
 
 **🛡️ Safety-First Design**
+
 - Automatic git checkpoints before destructive operations
 - Session persistence for cross-context continuity
 - Rollback capabilities with clear recovery paths
 - No AI attribution in commits or generated content
 
 **🌐 Universal Compatibility**
+
 - Framework-agnostic with intelligent auto-detection
 - Cross-platform support (Windows, Linux, macOS)
 - Works with any programming language or stack
@@ -236,6 +268,7 @@ When you type a command:
 
 **🔄 Session Continuity**
 Commands like `/implement` and `/refactor` maintain state across Claude sessions:
+
 ```
 # Each command creates its own folder in project root:
 refactor/                  # Created by /refactor command
@@ -261,12 +294,14 @@ scaffold/                 # Created by /scaffold command
 
 **🤖 Multi-Agent Architecture**
 Complex commands orchestrate specialized sub-agents:
+
 - Security analysis agent for vulnerability detection
 - Performance optimization agent for bottleneck identification
 - Architecture review agent for design pattern analysis
 - Code quality agent for maintainability assessment
 
 **📊 Performance Optimizations**
+
 - Reduced verbosity for senior developer efficiency
 - Smart caching of project analysis results
 - Incremental processing for large codebases
@@ -277,12 +312,14 @@ Complex commands orchestrate specialized sub-agents:
 ### Design Philosophy
 
 **Why This Approach Works** (Based on Anthropic's Research):
+
 - **Conversational Commands**: First-person language ("I'll help...") activates Claude's collaborative reasoning
 - **Build-Agnostic Instructions**: No hardcoded tools = works everywhere
 - **Think Tool Integration**: Strategic thinking improves decisions by 50%+ (Anthropic, 2025)
 - **Native Tools Only**: Uses Claude Code's actual capabilities, not imaginary APIs
 
 **Key Principles:**
+
 - **Simplicity > Complexity**: Start simple, add only when proven necessary
 - **Context Awareness**: Commands adapt to YOUR project, not vice versa
 - **Safety First**: Git checkpoints before any destructive operation
@@ -292,6 +329,7 @@ Complex commands orchestrate specialized sub-agents:
 
 **Native Tool Integration:**
 All commands leverage Claude Code CLI's native capabilities:
+
 - Grep tool for efficient pattern matching
 - Glob tool for file discovery
 - Read tool for content analysis
@@ -299,6 +337,7 @@ All commands leverage Claude Code CLI's native capabilities:
 - Sub-agents for specialized analysis
 
 **Safety-First Design:**
+
 ```bash
 git add -A
 git commit -m "Pre-operation checkpoint" || echo "No changes to commit"
@@ -311,6 +350,7 @@ Commands use first-person collaborative language ("I'll analyze your code...") r
 Intelligent detection without hardcoded assumptions enables universal compatibility across technology stacks.
 
 ### User Commands Indicator
+
 Custom commands appear with a `(user)` tag in Claude Code CLI to distinguish them from built-in commands. This is normal and indicates your commands are properly installed.
 
 ```
@@ -322,18 +362,18 @@ Custom commands appear with a `(user)` tag in Claude Code CLI to distinguish the
 
 ## Performance Metrics
 
-| Task | Manual Time | With CCPlugins | Time Saved |
-|------|-------------|----------------|------------|
-| Security analysis | 45-60 min | 3-5 min | ~50 min |
-| Architecture review | 30-45 min | 5-8 min | ~35 min |
-| Feature scaffolding | 25-40 min | 2-3 min | ~30 min |
-| Git commits | 5-10 min | 30 sec | ~9 min |
-| Code cleanup | 20-30 min | 1 min | ~25 min |
-| Import fixing | 15-25 min | 1-2 min | ~20 min |
-| Code review | 20-30 min | 2-4 min | ~20 min |
-| Issue prediction | 60+ min | 5-10 min | ~50 min |
-| TODO resolution | 30-45 min | 3-5 min | ~35 min |
-| Code adaptation | 40-60 min | 3-5 min | ~45 min |
+| Task                | Manual Time | With CCPlugins | Time Saved |
+| ------------------- | ----------- | -------------- | ---------- |
+| Security analysis   | 45-60 min   | 3-5 min        | ~50 min    |
+| Architecture review | 30-45 min   | 5-8 min        | ~35 min    |
+| Feature scaffolding | 25-40 min   | 2-3 min        | ~30 min    |
+| Git commits         | 5-10 min    | 30 sec         | ~9 min     |
+| Code cleanup        | 20-30 min   | 1 min          | ~25 min    |
+| Import fixing       | 15-25 min   | 1-2 min        | ~20 min    |
+| Code review         | 20-30 min   | 2-4 min        | ~20 min    |
+| Issue prediction    | 60+ min     | 5-10 min       | ~50 min    |
+| TODO resolution     | 30-45 min   | 3-5 min        | ~35 min    |
+| Code adaptation     | 40-60 min   | 3-5 min        | ~45 min    |
 
 **Total: 4-5 hours saved per week with professional-grade analysis**
 
@@ -346,6 +386,7 @@ Custom commands appear with a `(user)` tag in Claude Code CLI to distinguish the
 ## Advanced Usage
 
 ### Creating Custom Commands
+
 Create your own commands by adding markdown files to `~/.claude/commands/`:
 
 ```markdown
@@ -357,6 +398,7 @@ I'll help you with your specific workflow.
 ```
 
 ### Using Arguments
+
 Commands support arguments via `$ARGUMENTS`:
 
 ```bash
@@ -365,13 +407,14 @@ Commands support arguments via `$ARGUMENTS`:
 ```
 
 ### CI/CD Integration
+
 Use commands in automated workflows:
 
 ```bash
 # Quality pipeline
 claude "/security-scan" && claude "/review" && claude "/test"
 
-# Pre-commit validation  
+# Pre-commit validation
 claude "/format" && claude "/commit"
 
 # Feature development
@@ -385,6 +428,7 @@ claude "/find-todos" && claude "/fix-todos" && claude "/test"
 ```
 
 ### Manual Workflow Integration
+
 Perfect for development routines:
 
 ```bash
@@ -394,7 +438,7 @@ claude "/security-scan"
 
 # During development
 claude "/scaffold user-management"
-claude "/review" 
+claude "/review"
 claude "/format"
 
 # End of day
@@ -407,10 +451,12 @@ claude "/session-end"
 All commands that interact with git include security instructions to prevent AI attribution:
 
 **Commands with git protection:**
+
 - `/commit`, `/scaffold`, `/make-it-pretty`, `/cleanproject`, `/fix-imports`, `/review`, `/security-scan`
 - `/contributing`, `/todos-to-issues`, `/predict-issues`, `/find-todos`, `/create-todos`, `/fix-todos`
 
 These commands will NEVER:
+
 - Add "Co-authored-by" or AI signatures
 - Include "Generated with Claude Code" messages
 - Modify git config or credentials
@@ -425,7 +471,7 @@ We welcome contributions that help developers save time. See [CONTRIBUTING.md](C
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details.
-*Built by a developer tired of typing "please act like a senior engineer" in every conversation.*
+_Built by a developer tired of typing "please act like a senior engineer" in every conversation._
 
 ## Community
 
